@@ -3,3 +3,7 @@ Write your biography here. Tell the world about yourself. Link to your favorite 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+I am a first-year Ph.D. student in the School of Computer Science at Georgia Institute of Technology, where I am advised by [Dr. Vivek Sarkar](https://vsarkar.cc.gatech.edu). My research focuses on compiler optimizations, hardware-software co-design, and parallel computing. 
+
+Before joining Georgia Tech, I worked on optimizing compilers for fully homomorphic encryption during my time at Purdue University, collaborating with [Dr. Milind Kulkarni](https://engineering.purdue.edu/~milind/).
