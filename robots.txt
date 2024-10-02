@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://vickrant.github.io/sitemap.xml
+Sitemap: https://sreevickrant.github.io/sitemap.xml
