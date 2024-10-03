@@ -2,11 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "'Nothing is too wonderful to be true.' - Michael Faraday"
+
 
 profile:
   align: right
-  image: profile.jpeg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>KACB 2319</p>
