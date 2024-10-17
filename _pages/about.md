@@ -18,6 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a first-year Ph.D. student in the School of Computer Science at Georgia Institute of Technology, where I am advised by [Dr. Vivek Sarkar](https://vsarkar.cc.gatech.edu). My research focuses on compiler optimizations, hardware-software co-design, and parallel computing. 
+I am a first-year Ph.D. student in the School of Computer Science at Georgia Institute of Technology, where I am advised by [Dr. Vivek Sarkar](https://vsarkar.cc.gatech.edu) at the [Habanero Extreme Scale Software Research Laboratory](https://habanero.cc.gatech.edu). My research focuses on compiler optimizations, hardware-software co-design, and parallel computing. Currently, I am work on non-affine loop optimzations using polyhedral code compilation techniques for an actor-code compiler.
 
 Before joining Georgia Tech, I worked on optimizing compilers for fully homomorphic encryption during my time at Purdue University, collaborating with [Dr. Milind Kulkarni](https://engineering.purdue.edu/~milind/).
