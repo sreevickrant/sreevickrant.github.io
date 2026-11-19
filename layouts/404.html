@@ -1,5 +1,4 @@
-{{ partial "header.html" . }}
-
-404 NOT FOUND
-
-{{ partial "footer.html" . }}
+{{ define "main" }}
+<h1>page not found</h1>
+<p>Nothing lives at this address. Try the <a href="{{ "/" | relURL }}">homepage</a>.</p>
+{{ end }}

@@ -3,9 +3,6 @@ locale: "en-us"
 title: "Vickrant Sreekanth"
 disableKinds: ["taxonomy", "term"]
 
-# The al-folio files still on disk must not leak into the Hugo build.
-ignoreFiles: ["^_", "\\.Rmd$"]
-
 menu:
   main:
     - name: about
@@ -16,7 +13,6 @@ enableRobotsTXT: true
 
 params:
   description: "Vickrant Sreekanth is a Computer Science Ph.D. student at Georgia Tech working on sparse tensor compilation, tensor networks, and code generation optimization."
-  footer: "<span>&copy; {Year} <a href=\"/\">Vickrant Sreekanth</a></span><span class=\"footer-quote\">'When in doubt, use brute force.' - Ken Thompson</span>"
 
 markup:
   goldmark:
