@@ -1,7 +1,6 @@
 baseURL: "https://sreevickrant.github.io/"
 locale: "en-us"
 title: "Vickrant Sreekanth"
-theme: "hugo-xmin"
 disableKinds: ["taxonomy", "term"]
 
 # The al-folio files still on disk must not leak into the Hugo build.
