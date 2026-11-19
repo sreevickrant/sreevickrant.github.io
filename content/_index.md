@@ -17,7 +17,7 @@ title: "about"
 
 I am a 3<sup>rd</sup>-year Computer Science Ph.D. student at Georgia Tech, where I am advised by [Dr.&nbsp;Willow&nbsp;Ahrens](https://willowahrens.net). My research focuses on sparse tensor compilation, tensor networks, and code generation optimization.
 
-Before joining Georgia Tech, I worked on optimizing compilers for fully homomorphic encryption during my time at Purdue University, collaborating with [Dr.&nbsp;Milind&nbsp;Kulkarni](https://engineering.purdue.edu/~milind/).
+Before joining Georgia Tech, I worked on optimizing compilers for fully homomorphic encryption during my time at Purdue University, collaborating with [Dr.&nbsp;Raghav&nbsp;Malik](https://raghav198.github.io/) and [Dr.&nbsp;Milind&nbsp;Kulkarni](https://engineering.purdue.edu/~milind/).
 
 Outside of research, I dabble in wildlife and landscape [photography](photography/) and play racquet sports (tennis, pickleball...). I also enjoy history, movies, and TV.
 
