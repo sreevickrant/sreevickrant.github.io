@@ -7,9 +7,7 @@ title: "about"
   <div class="icons">
     <a href="mailto:vickrant@gatech.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
     <a href="https://github.com/sreevickrant" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    <a href="https://orcid.org/ORCID-ID" title="ORCID"><i class="ai ai-orcid"></i></a>
-    <a href="https://scholar.google.com/citations?user=SCHOLAR-ID" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-  </div>
+    <a href="https://orcid.org/0009-0004-1785-8641" title="ORCID"><i class="ai ai-orcid"></i></a>  </div>
 </div>
 
 # Vickrant Sreekanth
