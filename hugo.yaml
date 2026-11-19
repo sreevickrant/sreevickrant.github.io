@@ -1,0 +1,23 @@
+baseURL: "https://sreevickrant.github.io/"
+locale: "en-us"
+title: "Vickrant Sreekanth"
+theme: "hugo-xmin"
+disableKinds: ["taxonomy", "term"]
+
+# The al-folio files still on disk must not leak into the Hugo build.
+ignoreFiles: ["^_", "\\.Rmd$"]
+
+menu:
+  main:
+    - name: about
+      url: ""
+      weight: 1
+
+params:
+  footer: "&copy; {Year} Vickrant Sreekanth"
+
+markup:
+  goldmark:
+    renderer:
+      # The home page embeds the photo as raw HTML so it can float beside the bio.
+      unsafe: true
