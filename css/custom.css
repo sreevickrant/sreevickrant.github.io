@@ -1,21 +1,23 @@
 /* Camo green with cream text in every system theme; overrides the gray boxes in the XMin stylesheet. */
 :root {
   color-scheme: dark;
-  --bg: #474d33;
+  --bg: #525a3c;
   --fg: #f1ead2;
-  --muted: #d2cbab;
+  --muted: #dad3b4;
   --link: #ecd08a;
-  --rule: #6a7150;
+  --rule: #767d5b;
 }
 
 body {
   max-width: 720px;
   background: var(--bg);
   color: var(--fg);
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.6;
 }
 a { color: var(--link); }
+/* Keeps the superscript in "3rd" from pushing its line further from the others. */
+sup { line-height: 0; }
 hr { border: 0; border-top: 1px dashed var(--rule); }
 
 .menu { text-align: left; }
@@ -24,15 +26,31 @@ hr { border: 0; border-top: 1px dashed var(--rule); }
 .menu a:hover { color: var(--link); }
 footer { text-align: left; color: var(--muted); font-size: 0.85em; }
 footer a { color: var(--muted); }
+/* Copyright on the left, quote on the right; they wrap onto two lines on narrow screens. */
+footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.3em 1em; clear: both; }
+footer hr { flex-basis: 100%; }
+.footer-quote { font-style: italic; }
 
 h1 { margin-bottom: 0.2em; }
+h1 { font-size: 1.8em; line-height: 1.25; }
+h1.name { font-size: 2.3em; margin: 0.2em 0 0.5em; }
+a.home { color: inherit; text-decoration: none; }
+a.home:hover { color: var(--link); }
+/* Tamil has no monospaced web font, so it keeps Tiro while everything else is mono. */
+.name-sub { display: block; font-size: 0.45em; font-weight: normal; margin-top: 0.15em; color: var(--muted); }
+.name-tamil { font-family: "Tiro Tamil", serif; }
 .subtitle { color: var(--muted); font-style: italic; margin-top: 0; }
-.profile { float: right; width: 200px; margin: 1.5em 0 1em 1.5em; }
+/* A new block formatting context keeps the bio in its own column beside the photo,
+   instead of flowing underneath it once the photo ends. */
+.bio { overflow: hidden; }
+
+/* Top margin matches the name's, so the photo and the name start on the same line. */
+.profile { float: right; width: 200px; margin: 0.92em 0 1em 1.5em; }
 .profile img { display: block; width: 100%; border-radius: 4px; }
-.icons { display: flex; justify-content: space-between; margin-top: 0.6em; font-size: 1.5em; }
-.icons a { color: var(--fg); text-decoration: none; }
+.icons { display: flex; flex-direction: column; gap: 0.35em; margin-top: 0.7em; font-size: 0.85em; }
+.icons a { display: flex; align-items: center; gap: 0.6em; color: var(--fg); text-decoration: none; white-space: nowrap; }
+.icons i { width: 1.2em; font-size: 1.25em; text-align: center; }
 .icons a:hover { color: var(--link); }
-.contact { clear: both; padding-top: 1em; font-size: 0.9em; color: var(--muted); }
 
 /* XMin boxes page titles in gray; keep them plain like the home page heading. */
 .article-meta { background: none; padding: 0; text-align: left; }

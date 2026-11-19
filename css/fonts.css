@@ -1,10 +1,4 @@
-body {
-  font-family: "IBM Plex Sans", system-ui, sans-serif;
-}
-h1, h2, h3, .menu, footer, .contact {
+body, code {
   font-family: "IBM Plex Mono", ui-monospace, monospace;
 }
-code {
-  font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 85%;
-}
+code { font-size: 85%; }
