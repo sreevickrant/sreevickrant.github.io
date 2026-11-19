@@ -30,6 +30,7 @@ footer a { color: var(--muted); }
 footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.3em 1em; clear: both; }
 footer hr { flex-basis: 100%; }
 .footer-quote { font-style: italic; }
+.credit { flex-basis: 100%; font-size: 0.85em; }
 
 h1 { margin-bottom: 0.2em; }
 h1 { font-size: 1.8em; line-height: 1.25; }
