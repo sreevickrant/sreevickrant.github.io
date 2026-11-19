@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://sreevickrant.github.io/sitemap.xml
