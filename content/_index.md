@@ -18,6 +18,8 @@ I am a third-year Ph.D. student in the School of Computer Science at Georgia Ins
 
 Before joining Georgia Tech, I worked on optimizing compilers for fully homomorphic encryption during my time at Purdue University, collaborating with [Dr. Milind Kulkarni](https://engineering.purdue.edu/~milind/).
 
+Outside of research, I dabble in wildlife and landscape [photography](photography/) and play racquet sports such as tennis and pickleball. I also enjoy history, movies, and TV.
+
 <div class="contact">
 vickrant@gatech.edu<br>
 KACB 2319, 266 Ferst Dr NW<br>
