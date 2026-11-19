@@ -14,7 +14,7 @@ menu:
       weight: 1
 
 params:
-  footer: "&copy; {Year} Vickrant Sreekanth"
+  footer: "<span>&copy; {Year} <a href=\"/\">Vickrant Sreekanth</a></span><span class=\"footer-quote\">'When in doubt, use brute force.' - Ken Thompson</span>"
 
 markup:
   goldmark:
