@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# AI training crawlers may read the research pages but not the photographs.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: meta-externalagent
+Disallow: /photos/
+Disallow: /photography/
+
+Sitemap: {{ "sitemap.xml" | absURL }}

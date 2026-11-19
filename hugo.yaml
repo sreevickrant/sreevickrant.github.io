@@ -13,7 +13,10 @@ menu:
       url: ""
       weight: 1
 
+enableRobotsTXT: true
+
 params:
+  description: "Vickrant Sreekanth is a Computer Science Ph.D. student at Georgia Tech working on sparse tensor compilation, tensor networks, and code generation optimization."
   footer: "<span>&copy; {Year} <a href=\"/\">Vickrant Sreekanth</a></span><span class=\"footer-quote\">'When in doubt, use brute force.' - Ken Thompson</span>"
 
 markup:

@@ -1,5 +1,6 @@
 ---
 title: "photography"
+description: "Wildlife photography by Vickrant Sreekanth: tigers and leopards."
 ---
 
 I'm not a cat person, but I'll make an exception for the big ones.
